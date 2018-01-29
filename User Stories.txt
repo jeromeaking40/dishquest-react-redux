@@ -1,0 +1,22 @@
+Search Component:
+Search input for a user's individual address and search term
+
+RestaurantListComponent:
+After searching, the component re-renders with the results populated from the search
+
+Each result will have a APIKEY for individual restaurant.
+
+Store APIKEY & restaurant name in query params
+
+User clicks on restaurant and it goes to RestaurantDetails page.
+
+RestaurantDetailsComponent:
+Route Config = localhost:3001/restaurant?apiKey=746fdhdj47&name=china1
+
+Store the APIKEY in Params to go to restaurant page with menu on it.
+
+Go back to access previous state with all restaurants.
+
+
+//Stretch Goals
+Add ParkWhiz API to find parking for a particular restaurant. Display that on restaurant details page.
